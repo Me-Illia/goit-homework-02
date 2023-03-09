@@ -1,0 +1,91 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.listnone{
+    list-style: none;
+}
+
+.linknone{
+    text-decoration: none;
+}
+/* ==========HEADER====================== */
+.main-logo{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
+.main-logo > span{
+    width: 44px;
+    height: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.menu-nav{
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.menu-nav:hover,
+.menu-nav:focus{
+    color: #404BBF;
+    text-decoration: underline;
+}
+
+.main-add{
+    font-style:normal;
+}
+
+.main-mail{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.main-mail:hover,
+.main-mail:focus{
+    color: #404BBF;
+}
+
+.main-tel{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.main-tel:hover,
+.main-tel:focus{
+    color: #4D5AE5;
+}
+/* ==========/HEADER====================== */
+/* ==========BODY========================= */
+.btn-portfolio {
+    color: #4D5AE5;
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer;
+}
+/* ==========/BODY======================== */

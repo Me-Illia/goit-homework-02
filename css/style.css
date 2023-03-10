@@ -1,5 +1,35 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif, Times New Roman;
+}
+
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .listnone{
@@ -37,7 +67,7 @@ body{
     color: #2E2F42;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -76,6 +106,38 @@ body{
 .main-tel:focus{
     color: #4D5AE5;
 }
+/* ==========section1-index===================== */
+.main-order-btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;    
+    color: #FFFFFF;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin: 0 auto;
+    display: block;
+}
+
+.main-order-btn:hover,
+.main-order-btn:focus{
+    background: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);border-radius: 4px;
+}
+/* ==========/section1-index==================== */
+/* ==========section1-portfolio================= */
+.menu-btn-portfolio{
+    display: flex;
+    justify-content: center;
+}
+/* ==========/section1-portfolio================= */
+/* ==========section2-index===================== */
+.menu-feature{
+    display: flex;
+    justify-content: center;
+}
+/* ==========/section2-index===================== */
 /* ==========/HEADER====================== */
 /* ==========BODY========================= */
 .btn-portfolio {
